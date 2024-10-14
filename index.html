@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: #dde1e7;
+            margin: 0;
+            padding: 0;
+            /* background-image: url(image/premium_photo-1669316982093-b2ed20cc82ba.avif); */
+            background-size: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+
+        }
+
+        table {
+            margin-top: 20px;
+            border: none;
+            background: #dde1e7;
+            border-radius: 30px;
+            background-color:whitesmoke;
+            
+        }
+
+        td,
+        tr {
+            color: black;
+            padding: 10px;
+            width: 170px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        td input {
+            border-radius: 30px;
+            height: 35px;
+            border: none;
+            background-color: rgb(230, 113, 113);
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        td input:hover {
+            background-color: #50aa7073;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(52, 165, 42);
+            font-size: larger;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <h1 style="color: rgb(223, 207, 207);  margin-right: 80px; text-decoration: white; ">Registration Form</h1>
+        <tr>
+            <td>Enter First Name:</td>
+            <td><input type="text" name="fname" placeholder="Enter First Name" ></td>
+        </tr>
+        <tr>
+            <td>Enter Last Name:</td>
+            <td><input type="text" name="lname" placeholder="Enter Last Name" ></td>
+        </tr>
+        <tr>
+            <td>Enter Username:</td>
+            <td><input type="text" name="uname" placeholder="Enter Username" ></td>
+        </tr>
+        <tr>
+            <td>Enter E-mail:</td>
+            <td><input type="email" name="email" placeholder="Enter E-mail" ></td>
+        </tr>
+        <tr>
+            <td>Enter Password: </td>
+            <td><input type="password" name="pass" placeholder="Enter Password" ></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td><input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Hobbies:</td>
+            <td><input type="checkbox" name="Hobby" value="Reading" >Reading
+                <input type="checkbox" name="Hobby" value="Writing">Writing
+                <input type="checkbox" name="Hobby" value="Singing">Singing
+            </td>
+        </tr>
+        <tr>
+            <td>Enter State: </td>
+            <td><input type="text" name="state" placeholder="Enter city" required ></td>
+        </tr>
+        <tr>
+            <td>Enter City: </td>
+            <td><input type="text" name="city" placeholder="Enter country" ></td>
+        </tr>
+        <tr>
+            <td>Select Games: </td>
+            <td><select name="car" id="car">
+                    <option value="audi">Games</option>
+                    <option value="bmw">Volleyball</option>
+                    <option value="mercedes">Hockey</option>
+                    <option value="mercedes">Football</option>
+                    <option value="mercedes">Kabaddi</option>
+
+                    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Enter Comments: </td>
+            <td><textarea name="comment" id="comment" cols="30" rows="2" ></textarea></td>
+        </tr>
+
+</body>
+
+</html>
